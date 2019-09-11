@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        #photo {
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    Hello word
-</body>
+    <img id="gif" src="Vp3R.gif" alt="321">
+    <img id="photo" src="SwQkkNB6i0I.jpg" alt="123" load="myFunc()">
+    <script>
+    function myFunc() {
+        document.getElementById('gif').style.display = 'none';
+        document.getElementById('photo').style.display = 'inline-block';
+           }
+    </script>
+   </body>
 </html>
